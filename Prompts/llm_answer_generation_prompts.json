@@ -1,0 +1,18 @@
+{
+  "code_generation": {
+    "description": "Prompt for code generation tasks. Forces code-only output.",
+    "template": "### Instruction:\nWrite correct and efficient code to solve the following problem. Output only the code, with no explanations or comments.\n\n### Problem:\n{problem}\n\n### Code:\n"
+  },
+  "mathematical_reasoning": {
+    "description": "Prompt for mathematical reasoning tasks. Requires only the final answer.",
+    "template": "### Instruction:\nSolve the following problem and provide only the final answer.\n\n### Problem:\n{question}\n\n### Answer:\nFinal Answer:\n"
+  },
+  "question_answering": {
+    "description": "Prompt for direct question answering.",
+    "template": "### Instruction:\nAnswer the following question clearly and directly.\n\n### Question:\n{question}\n\n### Answer:\n"
+  },
+  "text_summarization": {
+    "description": "Prompt for text summarization tasks.",
+    "template": "### Instruction:\nSummarize the following text clearly and concisely.\nFocus only on the main ideas and most important facts.\nDo not add information that is not in the text.\n\n### Text:\n{text}\n\n### Summary:\n"
+  }
+}
